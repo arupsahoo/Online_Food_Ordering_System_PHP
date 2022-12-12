@@ -1,0 +1,546 @@
+/* 
+Theme: ONline food order;
+version: 1.0;
+
+*/
+ /* css for all */
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    
+    width: 80%;
+     margin: 0 auto;  /* first is for top,down 2nd is for left,right  */
+     padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+    height: 97%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.img-height{
+    height: 97%;
+}
+
+.text-right{
+    text-align: right;
+
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: green;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: darkgreen;
+}
+.btn{
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 7px;
+}
+.btn-primary{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: darkgreen;
+    color: white;
+}
+h2{
+   font-size: 2rem;
+   margin-bottom: 2%;
+
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+ /* Css for nav bar*/
+ .navbar{
+    /* background-color: #1e2022; */
+    background-image: url(../images/footer_pattern.png);
+ }
+.logo{
+    margin-left: 50px;
+    height: 60px;
+    /* width: 180px; */
+    float: left;
+    color: #e9e9e9;
+   }
+  /* .logo img{ */
+    /* width: 100%; */
+  /* }  */
+
+.menu ul{
+    list-style-type: none;
+    margin-right: 50px;
+    
+    
+}
+.menu ul li{
+    
+    font-size: large;
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.menu{
+    line-height: 50px;
+}
+
+/* CSS for food search section */
+
+.order-food{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   /*  background-position: center; */
+    padding: 7% 0;
+    
+    width: 100%;
+}
+
+.food-search{
+    background-image: url(../images/main-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   /*  background-position: center; */
+    padding: 7% 0;
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.foods{
+    background-image: url(../images/restrrr.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+    width: 100%;
+}
+.foods input[type="search"]{
+    width: 50%;
+    padding: 1.2%;
+    font-size: 1rem;
+    border: none;
+    margin: 5% auto;
+    border-radius: 5px;
+
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1.2%;
+    font-size: 1rem;
+    border: none;
+    margin-top: 13%;
+    border-radius: 5px;
+
+}
+.search-bar{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+.search-bar input[type="search"]{
+    width: 60%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
+.order-success{
+    width: 50%;
+
+    margin: 150px auto;
+    background-color: white;
+    color: green;
+}
+.order-success pre{
+    font-size: 100px;
+}
+/* css for categories section */
+.Categories{
+  /*   background-image: url(../images/myorderbg.jpg); */
+ /*  background-color: #535651b3; */
+    padding: 4% 0;
+  
+}
+.box3{
+   
+    width: 29%;
+    float: left;
+    margin: 2%;
+    height: 380px;
+
+}
+.success{
+    color: green;
+    padding: 1%;
+    font-size: 20px;
+}
+.error{
+    color: red;
+    padding: 1%;
+    font-size: 20px;
+}
+/*  3 steps section*/
+.steps{
+    
+        background-image: url(../images/3-steps.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: auto;
+       /*  background-position: center; */
+        padding: 7% 0;
+        height: 400px;
+        width: 100%;
+    
+}
+/* css for my order page */
+.myorderbg{
+    background-image: url(../images/myorderbg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   /*  background-position: center; */
+    padding: 7% 0;
+    height: 10px;
+    width: 100%;
+
+}
+ .myorder table{
+    width: 93%;
+    margin: 2% auto;
+    border: 1px solid gray;
+    
+}
+.myorder table tr th{
+    background-color: gray;
+    color: white;
+    border: 0.5px solid white;
+    padding: 1%;
+}
+.myorder table tr td{
+    border: 0.5px solid #ececec;
+    padding: 1%;
+}
+.myorder table tr td:hover{
+   background-color: #ececec;
+}
+/* css for food menu section */
+.food-menu{
+    background-color: #ececec;
+   padding: 4% 0;
+ 
+}
+.food-menu-box{
+    
+    width: 43%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+    height: 20%;
+    
+
+ 
+}
+.food-menu-img{
+    height: 75px;
+   
+    width: 20%;
+    float: left;
+    left: 5px;
+}
+.food-menu-desc{
+    float: left;
+    margin-left: 8%;
+    width: 70%;
+    height: 150px;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 1% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+    overflow: hidden;
+    width:auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    
+}
+/*  order food section*/
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/*  css for about us section */
+.about{
+  background-image: url();
+  background-image: url(../images/footer-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: auto;
+  width: 100%;
+  height: 500px;
+  color: white;
+}
+
+
+.half_space{
+	margin-bottom:25px;
+}
+.heading{
+	border-bottom:2px solid #e25111;
+	padding-bottom:10px;
+	display:inline-block;
+}
+.float-about{
+    width: 22%;
+    float: left;
+    margin-top: 10%;
+  
+    margin-right: 3%;
+
+}
+
+/* social section */
+.social, .footer{
+ background-color: #747d8c;
+}
+
+.copyright{
+   
+    color: #747d8c;
+    
+    background-color: #e25111;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding-right: 1%;
+}
+.copyright p{
+	display:inline-block;
+    float: left;
+	margin-left: 32%;
+	padding: 1%;
+}
+.copyright ul.social_icon {
+    float: left;
+   /*  margin-top: -5px; */
+    margin-right: 10%;
+    list-style: none;
+  }
+  .social_icon  li{
+    float: left;
+    padding-left: 10px;
+  }
+  .social_icon li a img{
+    padding-top: 10px;
+   width: 30px;
+  }
+  /* Show and hide content */
+  /* .hideContent { */
+    /* overflow: hidden; */
+    /* line-height: 1em; */
+    /* height: 2em; */
+    /*  */
+  /* width: 250px;  */
+  /*  */
+  /* text-overflow: ellipsis; */
+    /* border: 1px solid red; */
+  /* } */
+  .hideContent{
+    
+  }
+  
+  /* .showContent { */
+    /* line-height: 1em; */
+    /* height: auto; */
+  /* } */
+  
+  .showContent {
+    height: auto;
+  }
+  .show-more {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .overflow-information{ 
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  	width:150px; /* change based on when you want the dots to appear */
+} 
+/* css for smaller size screens */
+/* css for tablets */
+@media only screen and (max-width:768px){
+    .logo{
+        width: 90%;
+        float: none;
+        margin: 2% auto;
+    }
+    .menu ul{
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .container{
+    
+        width: 80%;
+           /* first is for top,down 2nd is for left,right  */
+        
+    }
+    .foods input[type="search"]{
+        width: 90%;
+        padding: 1.5%;
+        font-size: 1rem;
+        border: none;
+        margin: 5% auto;
+        border-radius: 5px;
+    
+    }
+    .food-search{
+        background-image: url(../images/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: auto;
+       /*  background-position: center; */
+       height: 150px;
+        
+       
+        width: 100%;
+       /*  border: 1px solid red; */
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+       margin-bottom: 3%;
+       padding: 2%;
+    }
+    .btn{
+width: 91%;
+padding: 2%;
+    }
+    
+    .Categories{
+       /*  border: 1px solid red; */
+        padding: 6% 0;
+    }
+    .steps{
+      /* border: 1px solid red; */
+      height: 180px;
+    }
+
+    .about{
+      
+        background-image: url(../images/footer-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: auto;
+        width: 100%;
+        height: 400px;
+        color: white;
+        font-size: x-small;
+      }
+      /* .copyright{ */
+        /* border: 1px solid red; */
+      /* } */
+      
+      .copyright p{
+       /*  border: 1px solid red; */
+        /* display:inline-block; */
+        float: left;
+        /* margin-left: 32%; */
+       /*  padding: 1%; */
+       
+       margin-left: 0%;
+       margin-top: 7px;
+    }
+    .copyright ul.social_icon {
+        float: right;
+       /*  margin-top: -5px; */
+        /* margin-right: 10%; */
+        list-style: none;
+      }
+      .social_icon  li{
+        float: left;
+        padding-left: 10px;
+      }
+      .social_icon li a img{
+        /* padding-top: 10px; */
+       width: 30px;
+      }
+    .box3{
+        width: 93%;
+        margin: 4%;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .food-menu{
+        padding: 10%;
+    }
+    .food-menu-box{
+        width: 93%;
+        padding: 5% auto;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 10% auto;
+    }
+    
+}
+
